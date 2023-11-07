@@ -60,3 +60,37 @@ let someNumber= 33
 let stringNumber = String(someNumber);
 console.log(typeof stringNumber);
 console.log(stringNumber);
+
+
+
+
+
+// *********************** Operations ***********************
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+
+let str1 = "hello"
+let str2 = " deepak"
+
+let str3= str1+str2
+console.log(str3);
+
+
+
+console.log("1" +2 );
+console.log(1+"2");
+
+console.log("1" + 2 + 2); //122
+
+console.log(1 + 2 + "2"); //32 
+// ToPrimitive
+
+console.log(+true);  //1
+// console.log(true+); // errer
+console.log(+""); // 0
+
+
+
