@@ -28,3 +28,36 @@ const myFunction =function(){
 
 console.log(typeof myFunction );
 
+
+
+
+// ++++++++++++++++++++Memory++++++++++++++++++++++
+
+// Stack (Primitive)  copy of data
+
+// Heap (non Primitive) reference of data
+
+
+let myYoutubename = "ai wala"
+
+
+let anothername = myYoutubename;
+anothername="chai with deepak"
+console.log(myYoutubename);
+console.log(anothername);
+
+
+
+let user1 = {
+    email: "user@google.com",
+    upi:"705@ybl"
+}
+
+
+
+let user2= user1;
+
+user2.email = "deepak@google.com";
+
+console.log(user1.email);
+console.log(user2.email);
